@@ -6,7 +6,7 @@ const ChoiceStaking = () => {
     return (<>
         <Container>
             <Row className="justify-content-center">
-                <Col md={6} lg={4} className="mb-4">
+                <Col md={6} lg={4} className="mb-4" onClick={() => window.location.href = process.env.REACT_APP_ETH_PATH}>
                     <Button variant="link" className="PR_StakingOn">
                         <div className="PR_StakingOnInner">
                             <div className="PR_StakingOnIcon">
@@ -17,7 +17,7 @@ const ChoiceStaking = () => {
                         <div className="fs-xxl-16px fs-14px text-white text-center PR_StakingOnName">Ethereum</div>
                     </Button>
                 </Col>
-                <Col md={6} lg={4} className="mb-4">
+                <Col md={6} lg={4} className="mb-4" onClick={() => window.location.href = process.env.REACT_APP_POLYGON_PATH}>
                     <Button variant="link" className="PR_StakingOn">
                         <div className="PR_StakingOnInner">
                             <div className="PR_StakingOnIcon">

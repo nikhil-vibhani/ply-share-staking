@@ -21,12 +21,7 @@ const AppRoutes = () => {
       <Header />
       <ScrollToTop>
         <Switch>
-          <Route exact path="/" component={Staking} />
-          <Route exact path="/choice-staking" component={ChoiceStaking} />
-          <Route exact path="/token-sales" component={TokenSales} />
-          <Route exact path="/mystery boxes" component={MysteryBoxes} />
-          <Route exact path="/staking" component={Staking} />
-          <Route exact path="/staking-list" component={StakingList} />
+          <Route exact path="/" component={ChoiceStaking} />
         </Switch>
       </ScrollToTop>
       {/* <Footer /> */}
